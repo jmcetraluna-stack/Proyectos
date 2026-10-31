@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    background-color: #f5f0e6;
+    color: #3d3023;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #6b4b2a;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+}
+
+header h1 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 36px;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+nav {
+    background-color: #d8c49e;
+    text-align: center;
+    padding: 12px;
+}
+
+nav a {
+    color: #3d3023;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 85%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: #fffdf8;
+    margin-bottom: 25px;
+    padding: 25px;
+    border: 1px solid #e3d7c3;
+    border-radius: 8px;
+}
+
+.informacion {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.informacion img {
+    width: 220px;
+    max-width: 35%;
+    height: auto;
+    border: 4px solid #d8c49e;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #79552e;
+    font-family: Georgia, serif;
+    margin-top: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.legado {
+    background-color: #eee3d0;
+}
+
+.fechas ul {
+    padding-left: 22px;
+}
+
+.fechas li {
+    margin-bottom: 12px;
+}
+
+.fechas strong {
+    color: #79552e;
+}
+
+footer {
+    background-color: #6b4b2a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 35px;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+@media (max-width: 650px) {
+    .informacion {
+        display: block;
+    }
+
+    .informacion img {
+        display: block;
+        max-width: 100%;
+        width: 200px;
+        margin: 0 auto 20px;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 5px 8px;
+    }
+
+    main {
+        width: 92%;
+    }
+}
